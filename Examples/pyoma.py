@@ -10,7 +10,10 @@ Original file is located at
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import pyoma2 as oma
+
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join('../src')))
 
 from pyoma2.algorithms import SSIdat_MS
 from pyoma2.algorithms import pLSCF,FSDD,SSIcov
