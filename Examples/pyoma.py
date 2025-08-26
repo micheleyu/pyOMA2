@@ -72,10 +72,10 @@ boveda.mpe(
     order_in=80)
 
 # plot mode shapes
-_, _ = boveda.plot_mode_geo1(algo_res=ssidat.result, mode_nr=1, view="3D", scaleF=2)
-_ = boveda.plot_mode_geo2_mpl(algo_res=ssidat.result, mode_nr=1, scaleF=1, notebook=True)
-_ = boveda.plot_mode_geo2_mpl(algo_res=ssidat.result, mode_nr=2, scaleF=1, notebook=True)
-_ = boveda.plot_mode_geo2_mpl(algo_res=ssidat.result, mode_nr=3, scaleF=1, notebook=True)
+_, _ = boveda.plot_mode_geo1(algo_res=ssidat.result, mode_nr=1, view="3D", scaleF=0.5)
+_ = boveda.plot_mode_geo2_mpl(algo_res=ssidat.result, mode_nr=1, scaleF=0.7, notebook=True)
+_ = boveda.plot_mode_geo2_mpl(algo_res=ssidat.result, mode_nr=2, scaleF=0.5, notebook=True)
+_ = boveda.plot_mode_geo2_mpl(algo_res=ssidat.result, mode_nr=3, scaleF=0.5, notebook=True)
 
 plt.show()
 
